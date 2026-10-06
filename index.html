@@ -3,18 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Docs - Project Overview</title> <!-- Fake title to hide what you are playing -->
+    <title>Google Docs - Project Overview</title>
     <style>
-        body, html {
-            margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #000;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9fbfd;
+            color: #333;
+        }
+        .assignment-text {
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            line-height: 1.6;
+        }
+        .frame-container {
+            width: 100%;
+            height: 600px;
+            max-width: 1000px;
+            margin: 0 auto;
+            border: 1px solid #ced4da;
+            background-color: #000;
         }
         iframe {
-            width: 100%; height: 100%; border: none;
+            width: 100%;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <!-- Pulls from one of the official alternative proxy domains to ensure it loads -->
-    <iframe src="https://math-project-3.com" allowfullscreen></iframe>
+
+    <div class="assignment-text">
+        <h2>Research Module 3: Computational Geometry</h2>
+        <p>This module explores coordinate space tracking, real-time networking arrays, and physics-based collision vectors. Review the interactive matrix window below to observe simulated resource distribution.</p>
+    </div>
+
+    <div class="frame-container">
+        <!-- Swap out the URL below if the domain itself is flagged by Securly -->
+        <iframe src="https://i-ready-assignment.com" allowfullscreen></iframe>
+    </div>
+
 </body>
 </html>
